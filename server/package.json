@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "name": "fullstack-booknook",
+  "version": "1.0.0",
+  "description": "A book discovery and tracking web app directly inspired by Goodreads. Dedicated specifically to romance books.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isabellaorear31-design/fullstack-booknook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/isabellaorear31-design/fullstack-booknook/issues"
+  },
+  "homepage": "https://github.com/isabellaorear31-design/fullstack-booknook#readme"
+}
