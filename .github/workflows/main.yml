@@ -21,7 +21,7 @@ jobs:
 
           # safer than StrictHostKeyChecking=no
           # ssh-keyscan -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts
-          ssh-keyscan -H 34.106.229.37 >> ~/.ssh/known_hosts
+          ssh-keyscan -H 34.162.84.165 >> ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
 
       - name: Deploy over SSH
@@ -29,7 +29,7 @@ jobs:
         env:
           SSH_USER: isabella_orear31 #${{ secrets.SSH_USER }}
           SSH_HOST: 34.162.84.165 #${{ secrets.SSH_HOST }}
-          APP_DIR:  fullstack-booknook # ${{ vars.APP_DIR }}
+          APP_DIR:  app # ${{ vars.APP_DIR }}
           PM2_NAME: fullstack-booknook # ${{ vars.PM2_NAME }}
         run: |
           ssh -i ~/.ssh/id_rsa -T "$SSH_USER@$SSH_HOST" <<EOF
@@ -37,10 +37,10 @@ jobs:
 
             cd "$APP_DIR"
 
-            git pull
-            npm ci
+            git pull origin main
+            cd server && npm install
 
-            pm2 restart "$PM2_NAME" || pm2 start app.mjs --name "$PM2_NAME"
+            pm2 restart "$PM2_NAME" || pm2 start app.js --name "$PM2_NAME"
             
             pm2 save
           EOF
