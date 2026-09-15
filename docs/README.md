@@ -15,8 +15,8 @@
 | DEV server | [Render](https://dashboard.render.com/project/prj-dabha0dcqm1c73dk6llg) |
 | docs | [`docs/`](https://github.com/isabellaorear31-design/fullstack-booknook/tree/main/docs) |
 | published docs | [GitHub Pages](https://isabellaorear31-design.github.io/fullstack-booknook/) |
-| CI/CD workflow | [`deploy.yml`](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/.github/workflows/deploy.yml) |
-| successful PROD deployment | [GitHub Action](REPLACE_WITH_ACTION_RUN_URL) |
+| CI/CD workflow | [`main.yml`](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/.github/workflows/main.yml) |
+| successful PROD deployment | [GitHub Action](https://github.com/isabellaorear31-design/fullstack-booknook/actions/runs/34927090383) |
 | resolved GOLF issue | [issue #1](https://github.com/isabellaorear31-design/fullstack-booknook/issues/1) |
 
 ### user story
