@@ -27,7 +27,9 @@
 
 ### narrative
 
-Built a full-stack romance book discovery application with automated CI/CD pipelines. Pushes to the dev branch automatically deploy to a Render staging environment, while pushes to main trigger a GitHub Actions workflow that deploys updates to a Compute Engine instance on GCP running Nginx, PM2, and Certbot for HTTPS termination.
+BookNook is a web app for discovering romance books.
+
+The project uses automated pipelines to handle code updates: pushing code to the dev branch deploys to Render for testing, while pushing to main triggers GitHub Actions to deploy directly to a GCP server running Nginx and PM2.
 
 ### architecture
 
