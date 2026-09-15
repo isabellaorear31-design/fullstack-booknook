@@ -17,7 +17,7 @@
 | published docs | [GitHub Pages](https://isabellaorear31-design.github.io/fullstack-booknook/) |
 | CI/CD workflow | [`deploy.yml`](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/.github/workflows/deploy.yml) |
 | successful PROD deployment | [GitHub Action](REPLACE_WITH_ACTION_RUN_URL) |
-| resolved GOLF issue | [issue #1](REPLACE_WITH_ISSUE_URL) |
+| resolved GOLF issue | [issue #1](https://github.com/isabellaorear31-design/fullstack-booknook/issues/1) |
 
 ### user story
 
