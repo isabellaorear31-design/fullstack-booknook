@@ -12,7 +12,7 @@
 | PROD codebase | [`main`](https://github.com/isabellaorear31-design/fullstack-booknook/tree/main) |
 | PROD server | [GCP](http://34.162.84.165) |
 | DEV codebase | [`dev`](https://github.com/isabellaorear31-design/fullstack-booknook/tree/dev) |
-| DEV server | [Render](https://dashboard.render.com/project/prj-dabha0dcqm1c73dk6llg) |
+| DEV server | [Render](https://fullstack-booknook.onrender.com) |
 | docs | [`docs/`](https://github.com/isabellaorear31-design/fullstack-booknook/tree/main/docs) |
 | published docs | [GitHub Pages](https://isabellaorear31-design.github.io/fullstack-booknook/) |
 | CI/CD workflow | [`main.yml`](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/.github/workflows/main.yml) |
