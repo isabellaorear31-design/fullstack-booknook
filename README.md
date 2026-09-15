@@ -62,6 +62,6 @@ fullstack-booknook/
 
 ### GCP
 
-external IP: `00.00.00.00`\
-Linux user: `username`\
+external IP: `34.162.84.165`\
+Linux user: `isabella_orear31`\
 instructor SSH public key installed: `yes`
