@@ -39,8 +39,6 @@ jobs:
 
             git pull origin main
             cd server && npm install
-
             pm2 restart "$PM2_NAME" || pm2 start app.js --name "$PM2_NAME"
-            
             pm2 save
           EOF
