@@ -10,7 +10,7 @@
 | resource | link |
 | --- | --- |
 | PROD codebase | [`main`](https://github.com/isabellaorear31-design/fullstack-booknook/tree/main) |
-| PROD server | [GCP](http://isabella.barrycumbie.com) |
+| PROD server | [GCP](https://isabella.barrycumbie.com) |
 | DEV codebase | [`dev`](https://github.com/isabellaorear31-design/fullstack-booknook/tree/dev) |
 | DEV server | [Render](https://fullstack-booknook.onrender.com) |
 | docs | [`docs/`](https://github.com/isabellaorear31-design/fullstack-booknook/tree/main/docs) |
