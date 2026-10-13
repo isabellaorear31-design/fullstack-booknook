@@ -4,7 +4,7 @@
 `@isabellaorear31-design` | `2026-10-13` | `HOTEL`
 
 ## deployments + codebase
-[main](https://github.com/isabellaorear31-design/fullstack-booknook/tree/main) | [DEV (Render)](https://fullstack-booknook.onrender.com) | [docs](https://github.com/isabellaorear31-design/fullstack-booknook/tree/main/docs) | [CI/CD workflow](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/.github/workflows/deploy-main-to-gcp.yml)
+[main](https://github.com/isabellaorear31-design/fullstack-booknook/tree/main) | [DEV (Render)](https://fullstack-booknook.onrender.com) | [docs](https://github.com/isabellaorear31-design/fullstack-booknook/tree/main/docs) | [CI/CD workflow](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/.github/workflows/main.yml)
 
 ## HOTEL grading dashboard
 
