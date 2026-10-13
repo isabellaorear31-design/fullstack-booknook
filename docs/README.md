@@ -1,70 +1,33 @@
 # BookNook
 > Tracking the best in romance, from Forks to Mayfair.
 
-### authorship + version
+`@isabellaorear31-design` | `2026-10-13` | `HOTEL`
 
-`@isabellaorear31-design` | `2026-09-14` | `GOLF`
+## deployments + codebase
+[main](https://github.com/isabellaorear31-design/fullstack-booknook/tree/main) | [PROD (GCP)](http://34.162.84.165) | [dev](https://github.com/isabellaorear31-design/fullstack-booknook/tree/dev) | [DEV (Render)](https://fullstack-booknook.onrender.com) | [docs](https://github.com/isabellaorear31-design/fullstack-booknook/tree/main/docs) | [CI/CD workflow](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/.github/workflows/main.yml) | [successful PROD deployment](https://github.com/isabellaorear31-design/fullstack-booknook/actions)
 
-### deployments, codebase, & repo features 
+## HOTEL grading dashboard
 
-| resource | link |
-| --- | --- |
-| PROD codebase | [`main`](https://github.com/isabellaorear31-design/fullstack-booknook/tree/main) |
-| PROD server | [GCP](https://isabella.barrycumbie.com) |
-| DEV codebase | [`dev`](https://github.com/isabellaorear31-design/fullstack-booknook/tree/dev) |
-| DEV server | [Render](https://fullstack-booknook.onrender.com) |
-| docs | [`docs/`](https://github.com/isabellaorear31-design/fullstack-booknook/tree/main/docs) |
-| published docs | [GitHub Pages](https://isabellaorear31-design.github.io/fullstack-booknook/) |
-| CI/CD workflow | [`main.yml`](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/.github/workflows/main.yml) |
-| successful PROD deployment | [GitHub Action](https://github.com/isabellaorear31-design/fullstack-booknook/actions/runs/34927090383) |
-| resolved GOLF issue | [issue #1](https://github.com/isabellaorear31-design/fullstack-booknook/issues/1) |
+| requirement | evidence |
+|---|---|
+| MongoDB connection | [server code](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/server/app.js) |
+| GET all | [endpoint code](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/server/app.js) |
+| GET one | [endpoint code](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/server/app.js) |
+| filtered GET | [endpoint code](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/server/app.js) |
+| POST / create | [endpoint code](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/server/app.js) |
+| PATCH / update | [endpoint code](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/server/app.js) |
+| DELETE | [endpoint code](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/server/app.js) |
+| frontend `fetch()` | [client code](https://github.com/isabellaorear31-design/fullstack-booknook/blob/main/public/index.html) |
+| persistent CRUD | [PROD app](http://34.162.84.165) |
+| HOTEL milestone | [milestone](https://github.com/isabellaorear31-design/fullstack-booknook/milestones) |
+| example issue | [issue #1](https://github.com/isabellaorear31-design/fullstack-booknook/issues) |
+| development branch | [branch](https://github.com/isabellaorear31-design/fullstack-booknook/tree/hotel/crud-features) |
+| feature → dev | [PR #](https://github.com/isabellaorear31-design/fullstack-booknook/pulls) |
+| dev → main | [PR #](https://github.com/isabellaorear31-design/fullstack-booknook/pulls) |
+| PROD deployment | [GitHub Action](https://github.com/isabellaorear31-design/fullstack-booknook/actions) |
 
-### user story
+## architecture
 
-- **As a** burgeoning full-stack developer,
-- **I want** a CI/CD infrastructure
-- **so that** I can develop locally, manage my code in GitHub, and automatically deploy changes to DEV and PROD environments.
+client → fetch() → Express REST API → MongoDB Atlas
 
-### narrative
-
-BookNook is a web app for discovering romance books.
-
-The project uses automated pipelines to handle code updates: pushing code to the dev branch deploys to Render for testing, while pushing to main triggers GitHub Actions to deploy directly to a GCP server running Nginx and PM2.
-
-### architecture
-
-```text
-LOCAL
-  │
-  ▼
-GitHub
-  │
-  ├── dev  ──► Render ─────────► DEV
-  │
-  └── main ──► GitHub Actions ─► GCP ──► PROD
-```
-
-### stack
-
-`HTML/CSS/JS` \| `Node.js` \| `Express` \| `Git/GitHub` \| `Render` \|
-`GCP` \| `Linux` \| `Nginx` \| `PM2` \| `Certbot` \| `GitHub Actions`
-
-### project structure 
-
-```text
-fullstack-booknook/
-├── .github/
-│   └── workflows/
-├── docs/
-│   └── README.md
-├── public/
-├── server/
-
-```
-
-### GCP
-
-external IP: `34.162.84.165`\
-Linux user: `isabella_orear31`\
-instructor SSH public key installed: `yes`
-
+feature → PR → dev → PR → main → GitHub Actions → GCP
