@@ -22,8 +22,8 @@
 | HOTEL milestone | [milestone](https://github.com/isabellaorear31-design/fullstack-booknook/milestone/1) |
 | example issue | [issue #5](https://github.com/isabellaorear31-design/fullstack-booknook/issues/5) |
 | development branch | [branch](https://github.com/isabellaorear31-design/fullstack-booknook/tree/hotel/crud-features) |
-| feature → dev | [PR](https://github.com/isabellaorear31-design/fullstack-booknook/pulls) |
-| dev → main | [PR](https://github.com/isabellaorear31-design/fullstack-booknook/pulls) |
+| feature → dev | [PR](https://github.com/isabellaorear31-design/fullstack-booknook/pull/7) |
+| dev → main | [PR](https://github.com/isabellaorear31-design/fullstack-booknook/pull/6) |
 | PROD deployment | [GitHub Action](https://github.com/isabellaorear31-design/fullstack-booknook/actions) |
 
 ## architecture
